@@ -1,0 +1,21 @@
+<div class="box">
+  <p>
+    Aplicação de Crédito Pessoal
+  </p>
+  <div class="launcher">
+    <p>
+      Dados -> {{data}}
+    </p>
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Informação a ser passada" [(ngModel)]="data">
+    </mat-form-field>
+    <br>
+    <button mat-raised-button color="primary" (click)="onClickPoupanca()">Chamar Aplicação de Poupança</button>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <button mat-raised-button color="accent" (click)="onClickCalc()">Abrir Calculadora</button>
+</div>
